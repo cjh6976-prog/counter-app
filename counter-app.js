@@ -79,6 +79,9 @@ export class CounterApp extends DDDSuper(I18NMixin(LitElement)) {
         margin: var(--ddd-spacing-2);
         padding: var(--ddd-spacing-4);
       }
+      button {
+       margin: var(--ddd-spacing-2);
+      }
       button:hover {
         background-color: var(--ddd-theme-default-keystoneYellow);
         color: pink;
